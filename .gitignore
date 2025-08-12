@@ -1,0 +1,24 @@
+# Ignore data and temporary directories
+/data/
+/temp_chunks/
+
+# Ignore all CSV files in the entire project
+*.csv
+
+# Ignore sensitive information
+secrets.json
+secretsjson.ipynb
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore trained model files (optional but good practice)
+*.pkl
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
